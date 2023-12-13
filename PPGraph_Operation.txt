@@ -1,0 +1,82 @@
+1	Transport warhead	D1(160)
+2	Measure the center of mass of warhead	D2(100),R1(80)
+3	Transport fuze	D3(45),R2(40)
+4	Detect the performance of fuze	D4(35),R1(30),R2(40)
+5	Assembly the fuse to the warhead	R3(75),F1(80),F2(80)
+6	Transport cable	D5(40),F1(50)
+7	Transport missile wing	D6(40),F2(50)
+8	Detect the height of fuze	R3(40),F1(45)
+9	Transport control bay	D7(60),R4(90),F1(75)
+10	Transport pyrotechnics	D8(65),R4(90)
+11	Detect missile wings and weight it	D9(50)
+12	Assembly control cabin and warhead	R5(145),F2(160)
+13	Measure resistance	D10(15),R5(23)
+14	Transport and dry missile wing 	D11(180)
+15	Assembly cable	D12(120),R5(130),F2(150)
+16	Assembly missile wing components	R6(30),F2(70),F3(65)
+17	Transport and dry shaping cover	R6(106)
+18	Assembly shaping cover	D13(33),F3(65)
+19	Measure quality	D14(109),R7(120)
+20	Detect center of moment of inertia	R7(60),R8(53),R9(45)
+21	Measure frequency resistance	R8(52),R10(28)
+22	Measure structural parameters	R8(55),R9(30)
+23	Measure electrical parameters	R8(50),R10(30)
+24	Assembly security plugs 	F4(34),F5(40)
+25	Print mark	R11(40),F4(36),F5(42)
+26	Check appearance quality 	R11(45),F4(42)
+27	Paint fill word	R11(55),F4(30),F5(32)
+28	Package box	R12(160)
+29	Pack the missile	D15(100)
+30	Print mark	R12(73),R13(70)
+31	Fill nitrogen	D16(75),R14(70)
+32	Lead seal	R13(85),R14(93)
+33	Palletize	D17(155)
+
+PPGraph_Precedence
+1 2
+2 5
+3 4
+4 5
+5 6
+6 7
+5 8
+5 9
+6 10
+6 12
+7 11
+8 12
+9 12
+10 13
+11 14
+12 15
+13 16
+14 16
+15 17
+16 17
+17 18
+18 19
+18 20
+18 21
+18 22
+18 23
+19 24
+20 24
+21 24
+22 24
+23 24
+19 25
+20 25
+21 25
+22 25
+23 25
+24 26
+25 26
+26 27
+26 28
+27 29
+28 29
+28 30
+29 31
+30 32
+31 32
+32 33
