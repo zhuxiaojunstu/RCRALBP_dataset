@@ -10,13 +10,11 @@ The information in each line is as follows：
 <number of operation> <name of operation> <name of first resource>(process time in `s`) <name of second resource>(process time in `s`)……
 ```
 
-“PPGraph_Precedence.txt” describes the relevant information of the operation precedence.
+“PPGraph_Precedence.txt” describes the relevant information of the operation precedence.That represents a process precedence, indicating that the first operation is better than the second operation.
 The information in each line is as follows：
 ```yaml
 <first operation> <second operation>.
 ```
-
-That represents a process precedence, indicating that the first operation is better than the second operation.
 
 ## License
 
